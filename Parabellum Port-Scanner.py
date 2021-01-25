@@ -22,11 +22,11 @@ if len(scan_row)!=2:
     print("Dados errados, olhe o exemplo  \"192.168.1.0/24 80,443,22\" ")
     sys.exit(0)
 
-hosts=scan_row[0] #Recebe a informacao do host do usuario
-port=scan_row[1] #recebe a informacao de porta do usuario
+hosts=scan_row[0] #Recebe a informação do host do usuario
+port=scan_row[1] #Recebe a informação de porta do usuario
 
 try:
- nm = nmap.PortScanner() #Cria um objeto de verificacao de porta
+ nm = nmap.PortScanner() #Cria um objeto de verificação de porta
 except nmap.PortScannerError:
     print('Nmap nao encontrado', sys.exc_info()[0])
     sys.exit(0)
@@ -36,20 +36,20 @@ except:
 
 
 try:
- #metodo de verificacao comandos nmap
+ #Método de verificação comandos nmap
     nm.scan(hosts=hosts, arguments=' -v -sV -sS -p '+port)
 except Exception as e:
     print("Scan erro:")+str(e)
 
-for host in nm.all_hosts(): #scan host
+for host in nm.all_hosts(): #Varre host
    print('----------------------------------------------------')
-print('Host : %s (%s)' % (host, nm[host].hostname())) #output host e  hostname
-print('Status : %s' % nm[host].state()) #status do host saida como up ou down
+print('Host : %s (%s)' % (host, nm[host].hostname())) #Output host e  hostname
+print('Status : %s' % nm[host].state()) #Status do host saida como up ou down
 
-for proto in nm[host].all_protocols(): #protocolo, de varredura como tcp, udp
+for proto in nm[host].all_protocols(): #Protocolo, de varredura como tcp, udp
     print('----------')
     print('Protocolo : %s' % proto) #insira o nome do protocolo
 
-    lport = nm[host][proto].keys() #obter todas as portas da varredura do protocol
-for port in lport: #status porta de entrada e saida
+    lport = nm[host][proto].keys() #Obter todas as portas da varredura do protocol
+for port in lport: #Status porta de entrada e saida
     print('port : %s\tstate : %s' % (port, nm[host][proto][port]['state']))

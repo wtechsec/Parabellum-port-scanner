@@ -2,9 +2,8 @@
 
 # Parabellum-port-scanner
 
-<p align="center">
-  <img widh="470" src"src/https://github.com/wtechsec/Parabellum-port-scanner/blob/main/screen/Parabellum-port-scanner.png">
-</p/>  
+<img src="https://github.com/wtechsec/Parabellum-port-scanner/blob/main/screen/Parabellum-port-scanner.png" width="800px" height="auto">
+
 
 > *Para fins educacionais e profissional (Pentest)* 
 

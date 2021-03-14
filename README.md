@@ -11,8 +11,9 @@
 ## uso
 
 1. `$ git clone
-2. `$ pip install -r requirements.txt`
-3. `$ sudo python3 Parabellum-Fake-mail.py wizard
+2. `$ sudo python3 Parabellum\ Port-Scanner.py
+3. `$ coloque ip e porta
+4. `$ olhe o exemplo  "192.168.1.0/24 80,443,22"
 
 
 

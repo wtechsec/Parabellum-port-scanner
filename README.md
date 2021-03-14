@@ -3,7 +3,7 @@
 # Parabellum-port-scanner
 
 
-> *Para fins educacional e profissional (Pentest)* 
+> *Para fins educacionais e profissional (Pentest)* 
 
 
 ----

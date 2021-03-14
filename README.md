@@ -2,7 +2,7 @@
 
 # Parabellum-port-scanner
 
-![Imgur](https://imgur.com/Lar8bTX)
+
 
 > *Para fins educacionais e profissional (Pentest)* 
 

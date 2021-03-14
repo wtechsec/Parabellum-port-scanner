@@ -1,4 +1,4 @@
-# wtechsec-code
+# by wtechsec
 
 # Parabellum-port-scanner
 

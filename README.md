@@ -18,7 +18,9 @@
 4. olhe o exemplo  "192.168.1.0/24 80,443,22"
 
 
-
+# By wtechsec
+# https://wtechsec.webnode.pt
+# https://www.instagram.com/wtechsec/
 
 
 

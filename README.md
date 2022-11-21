@@ -19,7 +19,7 @@
 
 
 # By wtechsec
-# https://wtechsec.webnode.pt
+# https://www.wtechsec.com.br
 # https://www.instagram.com/wtechsec/
 
 
